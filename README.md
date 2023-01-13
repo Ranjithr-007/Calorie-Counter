@@ -2,7 +2,7 @@
 
 API for calorie counter
 
-#Installation
+# Installation
 
 env\Scripts\activate
 
@@ -11,7 +11,7 @@ pip install -r requirements.txt
 python manage.py runserver
 
 
-#Setup
+# Setup
 
 Need to create a config.json in project root directory and fill SECRET_KEY key/value, it is the only requirement so far.
 Endpoints:
@@ -27,6 +27,6 @@ Endpoints:
     /api/reports/users/ - retrieve number of users who have exceeded the daily calorie goal in a given day
         Filters: date
 
-#Authentication
+# Authentication
 
 Basic Authentication using username and password
